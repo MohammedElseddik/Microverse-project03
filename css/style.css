@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.page-header{
+    background-color: crimson;
+    position: fixed;
+    top: 0;
+    z-index: 77;
+    width: 100%;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.navbar-ul {
+    padding: 0;
+    margin: 0 2rem 0 0;
+    list-style: none;
+}
+
+.navbar-li {
+    display: inline-block;
+    list-style: none;
+    padding: 1rem;
+}
+
+.navbar-li a {
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navbar-li:hover {
+    cursor: pointer;
+    background-color: rgb(253, 253, 253);
+}
+
+.navbar-li a:hover {
+    cursor: pointer;
+    color: crimson; 
+}
